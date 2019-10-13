@@ -1,15 +1,10 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 
 import CollectionPreview from "../../components/collection-preview/collection-preview.component";
 
 import SHOP_DATA from "./shop.data";
 
 export default class Shop extends Component {
-  static propTypes = {
-    prop: PropTypes
-  };
-
   constructor(props) {
     super(props);
 
